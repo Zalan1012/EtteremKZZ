@@ -1,0 +1,6 @@
+@EtteremKZ_HostAddress = http://localhost:5111
+
+GET {{EtteremKZ_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
