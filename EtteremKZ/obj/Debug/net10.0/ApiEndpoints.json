@@ -79,6 +79,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EtteremKZ.Controllers.VendegController",
+    "Method": "GetOsszesRendelesSzama",
+    "RelativePath": "api/Vendeg/osszesrendelesszama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EtteremKZ.Controllers.VendegController",
+    "Method": "GetVendegAdatok",
+    "RelativePath": "api/Vendeg/vendegadatok",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EtteremKZ.Controllers.VendegController",
+    "Method": "GetVendegRendelesei",
+    "RelativePath": "api/Vendeg/vendegrendelesei",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EtteremKZ.Controllers.VendegController",
+    "Method": "GetVendegRendelesSzama",
+    "RelativePath": "api/Vendeg/vendegrendelesszama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EtteremKZ.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
